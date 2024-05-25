@@ -84,6 +84,3 @@ Feel free to fork this repository and submit pull requests. Any contributions ar
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-```
-
-This revised version organizes the content into clear sections, provides proper code formatting, and improves readability. Let me know if you need further adjustments!
