@@ -4,6 +4,19 @@
 
 The Movie Query App is a Streamlit application that enables users to query movie data stored in a Neo4j database using natural language processing techniques. The app harnesses the power of a pre-trained LLM (Llama-2) to seamlessly translate natural language queries into Cypher queries, facilitating an intuitive interaction with the movie database.
 
+### Manually Downloading and Cleaning Data
+
+Users can manually download the data from Kaggle and clean it before loading it into the app. The dataset can be found in the `Dataset` folder, and the exploratory data analysis (EDA) and cleaning process are documented in the `Notebook` folder. To clean the data:
+
+1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows). 
+2. Read the dataset into a Pandas DataFrame.
+3. Drop unnecessary columns, such as 'Poster_Link' and 'Series_Title'.
+4. Fill null values in columns as necessary.
+5. Convert data types, such as converting strings to integers for numerical columns like 'Runtime' and 'Released_Year'.
+6. Explore and visualize the data using libraries like Matplotlib and Seaborn to gain insights and ensure data integrity.
+7. Once cleaned, the data can be imported into the Neo4j database for use within the app.
+
+   
 ## Features
 
 - **Load movie data:** Import movie data from a CSV file into the Neo4j database.
@@ -22,7 +35,7 @@ The Movie Query App is a Streamlit application that enables users to query movie
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/movie-query-app.git
+git clone https://github.com/itsmohitkumar/movie-query-app.git
 cd movie-query-app
 ```
 
