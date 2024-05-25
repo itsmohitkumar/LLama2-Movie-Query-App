@@ -1,0 +1,11 @@
+transformers
+torch
+llama-index
+langchain
+neo4j
+llama-index-llms-huggingface
+llama-index-embeddings-huggingface
+llama-index-embeddings-langchain
+langchain-community==latest_version
+accelerate
+bitsandbytes @ https://pypi.org/simple/

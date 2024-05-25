@@ -1,0 +1,17 @@
+# Python
+*.pyc
+
+# System and IDE files
+.DS_Store
+.idea/
+.vscode/
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Common editor and OS files
+*~
