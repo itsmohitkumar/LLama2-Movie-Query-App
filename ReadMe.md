@@ -1,17 +1,16 @@
-Sure, here's a revised version of the README.md file with improved structure and formatting:
 
 ```markdown
-# Movie Query App
+Movie Query App
 
-## Overview
+Overview
 
 The Movie Query App is a Streamlit application that allows users to query movie data stored in a Neo4j database using natural language processing techniques. The app is powered by a pre-trained LLM (Llama-2) to convert natural language queries into Cypher queries, providing a seamless and intuitive way to interact with the movie database.
 
 ## Features
 
-- **Load movie data:** Load movie data from a CSV file into the Neo4j database.
-- **Query movies:** Use natural language to query the genre, actors, director, rating, or overview of a specific movie.
-- **Modern UI:** User-friendly interface with a black theme for better aesthetics.
+- Load movie data: Load movie data from a CSV file into the Neo4j database.
+- Query movies: Use natural language to query the genre, actors, director, rating, or overview of a specific movie.
+- Modern UI: User-friendly interface with a black theme for better aesthetics.
 
 ## Installation
 
