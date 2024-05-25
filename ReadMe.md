@@ -45,6 +45,22 @@ cd movie-query-app
 pip install -r requirements.txt
 ```
 
+## Additional Installation Steps (If Needed)
+
+If you encounter any issues with installing the requirements, try running the following commands:
+
+```bash
+%pip install llama-index-llms-huggingface
+%pip install llama-index-embeddings-huggingface
+
+%pip install llama-index-embeddings-langchain
+
+!pip install -U langchain-community
+
+!pip install accelerate
+!pip install -i https://pypi.org/simple/ bitsandbytes
+```
+
 ### Setup Neo4j
 
 1. Start your Neo4j instance.
