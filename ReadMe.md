@@ -64,7 +64,7 @@ streamlit run app.py
 The repository is divided into three main files for modularity and clarity:
 
 1. `neo4j_setup.py`: Contains functions for setting up the Neo4j connection, loading data into the database, and querying the database.
-2. `llm_setup.py`: Contains the setup for the LLM, including loading the tokenizer and model.
+2. `llm.py`: Contains the setup for the LLM, including loading the tokenizer and model.
 3. `app.py`: The main file that runs the Streamlit app, allowing users to load data and query the movie database.
 
 ## Example Usage
