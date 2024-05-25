@@ -63,7 +63,7 @@ If you encounter any issues with installing the requirements, try running the fo
 
 ### Setup Neo4j
 
-1. Start your Neo4j instance.
+1. Start your Neo4j instance. you can set up a free instance on the [Neo4j website](https://neo4j.com/download/).
 2. Update the Neo4j connection details in `neo4j_setup.py`:
 
 ```python
@@ -87,6 +87,9 @@ To run the Streamlit app, execute the following command in your terminal:
 ```bash
 streamlit run app.py
 ```
+
+## Note:
+If you encounter issues running the app on your local machine because of no GPU, you can try using Google Colab with [this link](https://colab.research.google.com/).
 
 ## File Structure
 
