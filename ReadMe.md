@@ -35,7 +35,7 @@ Users can manually download the data from Kaggle and clean it before loading it 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/itsmohitkumar/movie-query-app.git
+git clone https://github.com/itsmohitkumar/LLama2-Movie-Query-App.git
 cd movie-query-app
 ```
 
