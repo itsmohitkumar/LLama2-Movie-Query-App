@@ -63,7 +63,7 @@ If you encounter any issues with installing the requirements, try running the fo
 
 ### Setup Neo4j
 
-1. Start your Neo4j instance. you can set up a free instance on the [Neo4j website](https://neo4j.com/download/).
+1. Start your Neo4j instance. you can set up a free instance on the [Neo4j website](https://neo4j.com/).
 2. Update the Neo4j connection details in `neo4j_setup.py`:
 
 ```python
