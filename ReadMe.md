@@ -89,7 +89,7 @@ streamlit run app.py
 ```
 
 ## Note:
-If you encounter issues running the app on your local machine because of no GPU, you can try using Google Colab with [this link]([https://colab.research.google.com/drive/1O20KcAx6uCDpw7SGlPj_i16oB4aKaLzx?usp=sharing]).
+If you encounter issues running the app on your local machine because of no GPU, you can try using Google Colab with [this link](https://colab.research.google.com/drive/1O20KcAx6uCDpw7SGlPj_i16oB4aKaLzx?usp=sharing).
 
 ## File Structure
 
