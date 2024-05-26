@@ -90,6 +90,7 @@ streamlit run app.py
 
 ## Note:
 If you encounter issues running the app on your local machine because of no GPU, you can try using Google Colab with [this link](https://colab.research.google.com/drive/1O20KcAx6uCDpw7SGlPj_i16oB4aKaLzx?usp=sharing).
+Additionally, the credentials in this repository have been changed for security reasons and will not work.
 
 ## File Structure
 
@@ -109,7 +110,9 @@ User query: What is the genre of Titanic?
 
 Output: The genre of Titanic is Drama, Romance.
 
-<div style="padding:54.72% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/950413978?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Movie Query App Working Video"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+### Watch the Working Video
+
+To see the Movie Query App in action, you can watch the demo video by following this link: [Movie Query App Demo Video](https://vimeo.com/950413978?share=copy)
 
 ## Contributing
 
