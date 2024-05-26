@@ -36,7 +36,7 @@ Users can manually download the data from Kaggle and clean it before loading it 
 
 ```bash
 git clone https://github.com/itsmohitkumar/LLama2-Movie-Query-App.git
-cd movie-query-app
+cd LLama2-Movie-Query-App
 ```
 
 ### Install the Dependencies
