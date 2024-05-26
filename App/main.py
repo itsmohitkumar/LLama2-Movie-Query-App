@@ -74,18 +74,19 @@ if not tokenizer or not model:
 
 st.title("Movie Query App")
 
+'''
 # Load CSV data
 uploaded_file = st.file_uploader("Upload CSV", type=["csv"])
 if uploaded_file is not None:
     load_message = load_data_into_neo4j(uploaded_file)
     st.success(load_message)
-
 '''
+
 # Load CSV data into Neo4j
-csv_file = 'cleaned_imdb_data.csv'
+csv_file = './Dataset/Cleaned/cleaned_imdb_data.csv'
 if st.button('Load Data into Neo4j'):
     load_data_into_neo4j(csv_file)
-'''
+
 
 # Example usage with user input
 natural_language_query = st.text_input("Ask about a movie", "What is the genre of Titanic?")
